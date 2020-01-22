@@ -1,0 +1,37 @@
+=================================BACK END================================================
+
+** MongoDB **
+
+Estudar sobre operator, para facilitar em querys feitas ao banco.
+
+** Node.JS **
+
+ROUTES=>
+ #Utiliza metodos HTTP: get, put, post, delete etc...
+ 
+ #Tipos de Parametros
+  - Query Params: req.query (Filtros, ordenação, paginação, ...)
+  - Route Params: req.params (Identificar um recurso na alteração ou remoção)
+  - Body: req.body (Dados para criação ou alteração de um registro)
+
+Metodos Controller: Index (listagem), show (único item), store (gravar), update (atualizar), destroy (deletar)
+                                            Rota, Controller
+ Exemplo Routes + Controller -> routes.get('/devs', DevController.index); 
+
+
+
+
+
+================================FRONT END================================================
+** REACT **
+
+Componente: Bloco isolado de HTML, CSS e JS , o qual não interfere no restante da aplicação
+ -> Motivos para criação do Componente: repetição de código, isolamento de código.
+ -> Fragmento <> </> para poder colocar vários componente um abaixo do outro, sem ter que usar uma Div
+
+Propriedade: Informações que um componente PAI passa para o componente FILHO
+ -> Tipos: pode ser String, variavel, funções
+
+Estado: Informações mantidas pelo componente (Lembrar: imutabilidade)
+
+
